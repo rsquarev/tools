@@ -1,0 +1,23 @@
+{
+  "script": {
+    "enableScriptNuGetReferences": true,
+    "defaultTargetFramework": "netcore3.1"
+  },
+  "msbuild": {
+    "MSBuildSdksPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\MSBuild\\15.0\\Bin",
+    "enabled": true
+    //"ToolsVersion": null,
+    //"VisualStudioVersion": null,
+    //"Configuration": null,
+    //"Platform": null,
+    // "EnablePackageAutoRestore" : true,
+    // "MSBuildExtensionsPath": null,
+    // "TargetFrameworkRootPath" : null,
+    // "MSBuildSDKsPath": null,
+    // "RoslynTargetsPath" : null,
+    // "CscToolPath": null,
+    // "CscToolExe": null,
+    // "loadProjectsOnDemand": false,
+    // "GenerateBinaryLogs": false
+  }
+}

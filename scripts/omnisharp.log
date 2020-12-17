@@ -1,0 +1,2368 @@
+Starting OmniSharp server at 12/17/2020, 1:45:42 PM
+    Target: c:\Raghav\github\tools\tools\scripts
+
+OmniSharp server started.
+    Path: c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\OmniSharp.exe
+    PID: 115968
+
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Cake
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Cake, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.DotNetTest
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.DotNetTest, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Host
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Host, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.MSBuild
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.MSBuild, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Roslyn
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Roslyn, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Roslyn.CSharp
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Roslyn.CSharp, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Script
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Script, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Shared
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Shared, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.razor\OmniSharpPlugin\Microsoft.AspNetCore.Razor.OmniSharpPlugin.dll
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on Windows 6.2.9200.0 (x64)
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to dotnet
+[dbug]: OmniSharp.CompositionHostBuilder
+        .NET SDK requires MSBuild instances version 16.3 or higher
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 3 MSBuild instance(s)
+            1: Visual Studio Build Tools 2017 15.9.28307.1300 - "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin"
+            2: Visual Studio Enterprise 2019 16.8.30717.126 - "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin"
+            3: StandAlone 16.8.0 - "c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\.msbuild\Current\Bin"
+[dbug]: OmniSharp.CompositionHostBuilder
+        MSBuild instance Visual Studio Build Tools 2017 15.9.28307.1300 scored at -2147483648
+[dbug]: OmniSharp.CompositionHostBuilder
+        MSBuild instance Visual Studio Enterprise 2019 16.8.30717.126 scored at 2
+[dbug]: OmniSharp.CompositionHostBuilder
+        MSBuild instance StandAlone 16.8.0 scored at 1
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll' (name-only).
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Tasks.Core.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Tasks.Core.dll' (name-only).
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll' (name-only).
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Framework.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Framework.dll' (name-only).
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: Visual Studio Enterprise 2019 16.8.30717.126 - "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin"
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll' (name-only).
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.Build.Framework, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Framework.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Framework.dll' (name-only).
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll' (name-only).
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.CSharp.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.CodeAnalysis.VisualBasic.Workspaces, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        FAILURE: Could not locate 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll'.
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.CodeAnalysis.VisualBasic.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        FAILURE: Could not locate 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.CodeAnalysis.VisualBasic.Features.dll'.
+[trce]: OmniSharp.HostServicesAggregator
+        Successfully added Microsoft.CodeAnalysis.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 to host service assemblies.
+[trce]: OmniSharp.HostServicesAggregator
+        Successfully added Microsoft.CodeAnalysis.CSharp.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 to host service assemblies.
+[trce]: OmniSharp.HostServicesAggregator
+        Successfully added Microsoft.AspNetCore.Razor.OmniSharpPlugin.StrongNamed, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to host service assemblies.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in 'c:\Raghav\github\tools\tools\scripts'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Could not find any Cake files
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.Build'
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll' (name-only).
+[dbug]: OmniSharp.MSBuild.ProjectSystem
+        MSBuild environment: 
+Mode: VisualStudio
+RunningTests: False
+RunningInVisualStudio: False
+MSBuildToolsDirectory32: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin
+MSBuildToolsDirectory64: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\amd64
+MSBuildSDKsPath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Sdks
+CurrentMSBuildConfigurationFile: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\MSBuild.exe.config
+CurrentMSBuildExePath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\MSBuild.exe
+CurrentMSBuildToolsDirectory: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin
+VisualStudioInstallRootDirectory: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise
+MSBuildExtensionsPath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild
+
+[info]: OmniSharp.MSBuild.ProjectSystem
+        No solution files found in 'c:\Raghav\github\tools\tools\scripts'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in 'c:\Raghav\github\tools\tools\scripts'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Found 1 CSX files.
+[info]: OmniSharp.Script.ScriptContextProvider
+        Searching for compilation dependencies with the fallback framework of 'net461'.
+[fail]: OmniSharp.Script.ScriptContextProvider
+        Failed to resolve compilation dependencies
+[info]: OmniSharp.Script.ScriptContextProvider
+        Unable to find dependency context for CSX files. Will default to non-context usage (Desktop CLR scripts).
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'System.Runtime'
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        FAILURE: Could not locate 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\System.Runtime.dll'.
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.Composition\v4.0_4.0.0.0__b77a5c561934e089\System.ComponentModel.Composition.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Workspaces, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.Workspaces.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.Workspaces.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.CSharp, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.CSharp.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.CSharp.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.Features.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.Features.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.CSharp.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.CSharp.Features.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.CSharp.Features.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.CSharp.Workspaces, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.CSharp.Workspaces.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Razor.Workspaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.razor\OmniSharpPlugin\Microsoft.CodeAnalysis.Razor.Workspaces.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.razor\OmniSharpPlugin\Microsoft.CodeAnalysis.Razor.Workspaces.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.razor\OmniSharpPlugin\Microsoft.CodeAnalysis.Razor.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.razor\OmniSharpPlugin\Microsoft.CodeAnalysis.Razor.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Scripting, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.Scripting.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\Microsoft.CodeAnalysis.Scripting.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\System.ValueTuple.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.7\.omnisharp\1.37.4\System.ValueTuple.dll'
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.IO
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Collections.Generic
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Console
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Diagnostics
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Dynamic
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Linq
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Linq.Expressions
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Text
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Threading.Tasks
+[dbug]: OmniSharp.MSBuild.ProjectSystem
+        Could not locate project for 'c:\Raghav\github\tools\tools\scripts\ado\main.csx'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Added CSX project 'c:\Raghav\github\tools\tools\scripts\ado\main.csx' to the workspace.
+[dbug]: OmniSharp.WorkspaceInitializer
+        Starting with OmniSharp options: {"RoslynExtensionsOptions":{"EnableDecompilationSupport":false,"EnableAnalyzersSupport":false,"EnableImportCompletion":false,"DocumentAnalysisTimeoutMs":10000,"LocationPaths":null},"FormattingOptions":{"OrganizeImports":false,"EnableEditorConfigSupport":true,"NewLine":"\n","UseTabs":false,"TabSize":4,"IndentationSize":4,"SpacingAfterMethodDeclarationName":false,"SpaceWithinMethodDeclarationParenthesis":false,"SpaceBetweenEmptyMethodDeclarationParentheses":false,"SpaceAfterMethodCallName":false,"SpaceWithinMethodCallParentheses":false,"SpaceBetweenEmptyMethodCallParentheses":false,"SpaceAfterControlFlowStatementKeyword":true,"SpaceWithinExpressionParentheses":false,"SpaceWithinCastParentheses":false,"SpaceWithinOtherParentheses":false,"SpaceAfterCast":false,"SpacesIgnoreAroundVariableDeclaration":false,"SpaceBeforeOpenSquareBracket":false,"SpaceBetweenEmptySquareBrackets":false,"SpaceWithinSquareBrackets":false,"SpaceAfterColonInBaseTypeDeclaration":true,"SpaceAfterComma":true,"SpaceAfterDot":false,"SpaceAfterSemicolonsInForStatement":true,"SpaceBeforeColonInBaseTypeDeclaration":true,"SpaceBeforeComma":false,"SpaceBeforeDot":false,"SpaceBeforeSemicolonsInForStatement":false,"SpacingAroundBinaryOperator":"single","IndentBraces":false,"IndentBlock":true,"IndentSwitchSection":true,"IndentSwitchCaseSection":true,"IndentSwitchCaseSectionWhenBlock":true,"LabelPositioning":"oneLess","WrappingPreserveSingleLine":true,"WrappingKeepStatementsOnSingleLine":true,"NewLinesForBracesInTypes":true,"NewLinesForBracesInMethods":true,"NewLinesForBracesInProperties":true,"NewLinesForBracesInAccessors":true,"NewLinesForBracesInAnonymousMethods":true,"NewLinesForBracesInControlBlocks":true,"NewLinesForBracesInAnonymousTypes":true,"NewLinesForBracesInObjectCollectionArrayInitializers":true,"NewLinesForBracesInLambdaExpressionBody":true,"NewLineForElse":true,"NewLineForCatch":true,"NewLineForFinally":true,"NewLineForMembersInObjectInit":true,"NewLineForMembersInAnonymousTypes":true,"NewLineForClausesInQuery":true},"FileOptions":{"SystemExcludeSearchPatterns":["**/node_modules/**/*","**/bin/**/*","**/obj/**/*","**/.git/**/*","**/.git","**/.svn","**/.hg","**/CVS","**/.DS_Store"],"ExcludeSearchPatterns":[]},"RenameOptions":{"RenameOverloads":false,"RenameInStrings":false,"RenameInComments":false},"ImplementTypeOptions":{"InsertionBehavior":null,"PropertyGenerationBehavior":null},"Plugins":{"LocationPaths":null}}
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpFormattingWorkspaceOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.RenameWorkspaceOptionsProvider, Order: 100
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.ImplementTypeWorkspaceOptionsProvider, Order: 110
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.BlockStructureWorkspaceOptionsProvider, Order: 140
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location 'c:\Raghav\github\tools\tools\scripts' on host 113880.
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 835,
+  "Command": "/projects"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 836,
+  "Command": "/projects"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 835,
+  "Command": "/projects",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "MsBuild": {
+      "SolutionPath": "c:\\Raghav\\github\\tools\\tools\\scripts",
+      "Projects": []
+    },
+    "Script": {
+      "Projects": [
+        {
+          "Path": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+          "AssemblyReferences": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Scripting.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\System.ValueTuple.dll"
+          ],
+          "GlobalsType": "Microsoft.CodeAnalysis.Scripting.Hosting.CommandLineScriptGlobals, Microsoft.CodeAnalysis.Scripting, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+          "CommonUsings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic",
+            "System.Console",
+            "System.Diagnostics",
+            "System.Dynamic",
+            "System.Linq",
+            "System.Linq.Expressions",
+            "System.Text",
+            "System.Threading.Tasks"
+          ]
+        }
+      ]
+    }
+  },
+  "Seq": 124,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 836,
+  "Command": "/projects",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "MsBuild": {
+      "SolutionPath": "c:\\Raghav\\github\\tools\\tools\\scripts",
+      "Projects": []
+    },
+    "Script": {
+      "Projects": [
+        {
+          "Path": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+          "AssemblyReferences": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Scripting.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\System.ValueTuple.dll"
+          ],
+          "GlobalsType": "Microsoft.CodeAnalysis.Scripting.Hosting.CommandLineScriptGlobals, Microsoft.CodeAnalysis.Scripting, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+          "CommonUsings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic",
+            "System.Console",
+            "System.Diagnostics",
+            "System.Dynamic",
+            "System.Linq",
+            "System.Linq.Expressions",
+            "System.Text",
+            "System.Threading.Tasks"
+          ]
+        }
+      ]
+    }
+  },
+  "Seq": 126,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 837,
+  "Command": "/projects"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 837,
+  "Command": "/projects",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "MsBuild": {
+      "SolutionPath": "c:\\Raghav\\github\\tools\\tools\\scripts",
+      "Projects": []
+    },
+    "Script": {
+      "Projects": [
+        {
+          "Path": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+          "AssemblyReferences": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Scripting.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\System.ValueTuple.dll"
+          ],
+          "GlobalsType": "Microsoft.CodeAnalysis.Scripting.Hosting.CommandLineScriptGlobals, Microsoft.CodeAnalysis.Scripting, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+          "CommonUsings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic",
+            "System.Console",
+            "System.Diagnostics",
+            "System.Dynamic",
+            "System.Linq",
+            "System.Linq.Expressions",
+            "System.Text",
+            "System.Threading.Tasks"
+          ]
+        }
+      ]
+    }
+  },
+  "Seq": 130,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 838,
+  "Command": "/v2/codestructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 839,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 5,
+    "Column": 35
+  }
+}
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.CSharp.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Workspaces, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 838,
+  "Command": "/v2/codestructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Elements": [
+      {
+        "Kind": "field",
+        "Name": "client",
+        "DisplayName": "client",
+        "Children": null,
+        "Ranges": {
+          "name": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 11
+            }
+          },
+          "full": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 28
+            }
+          }
+        },
+        "Properties": {
+          "static": false,
+          "accessibility": "private"
+        }
+      }
+    ]
+  },
+  "Seq": 133,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 840,
+  "Command": "/v2/blockstructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Features, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 840,
+  "Command": "/v2/blockstructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Spans": [
+      {
+        "Range": {
+          "Start": {
+            "Line": 3,
+            "Column": 7
+          },
+          "End": {
+            "Line": 3,
+            "Column": 23
+          }
+        },
+        "Kind": "Imports"
+      },
+      {
+        "Range": {
+          "Start": {
+            "Line": 5,
+            "Column": 19
+          },
+          "End": {
+            "Line": 5,
+            "Column": 33
+          }
+        },
+        "Kind": null
+      }
+    ]
+  },
+  "Seq": 151,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 841,
+  "Command": "/v2/codestructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 841,
+  "Command": "/v2/codestructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Elements": [
+      {
+        "Kind": "field",
+        "Name": "client",
+        "DisplayName": "client",
+        "Children": null,
+        "Ranges": {
+          "name": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 11
+            }
+          },
+          "full": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 28
+            }
+          }
+        },
+        "Properties": {
+          "static": false,
+          "accessibility": "private"
+        }
+      }
+    ]
+  },
+  "Seq": 155,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 842,
+  "Command": "/projects"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 842,
+  "Command": "/projects",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "MsBuild": {
+      "SolutionPath": "c:\\Raghav\\github\\tools\\tools\\scripts",
+      "Projects": []
+    },
+    "Script": {
+      "Projects": [
+        {
+          "Path": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+          "AssemblyReferences": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\Microsoft.CodeAnalysis.Scripting.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.7\\.omnisharp\\1.37.4\\System.ValueTuple.dll"
+          ],
+          "GlobalsType": "Microsoft.CodeAnalysis.Scripting.Hosting.CommandLineScriptGlobals, Microsoft.CodeAnalysis.Scripting, Version=3.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+          "CommonUsings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic",
+            "System.Console",
+            "System.Diagnostics",
+            "System.Dynamic",
+            "System.Linq",
+            "System.Linq.Expressions",
+            "System.Text",
+            "System.Threading.Tasks"
+          ]
+        }
+      ]
+    }
+  },
+  "Seq": 159,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 839,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": []
+  },
+  "Seq": 135,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 843,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 2,
+    "Column": 20
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:1,19
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 843,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 333,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 844,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 20
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,19
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 844,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 340,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 845,
+  "Command": "/findusages",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 20,
+    "OnlyThisFile": true,
+    "ExcludeDefinition": false
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 845,
+  "Command": "/findusages",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": []
+  },
+  "Seq": 345,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 846,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 20
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 846,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": []
+  },
+  "Seq": 350,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 847,
+  "Command": "/completion",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 20,
+    "CompletionTrigger": 1
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionService
+        Completions requested
+[trce]: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionService
+        Found 0 completions for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,19
+[trce]: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionService
+        Completions filled in
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 847,
+  "Command": "/completion",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "IsIncomplete": false,
+    "Items": [
+      {
+        "Label": "Cache",
+        "Kind": 9,
+        "Tags": null,
+        "Detail": "",
+        "Documentation": null,
+        "Preselect": true,
+        "SortText": "Cache",
+        "FilterText": "Cache",
+        "InsertTextFormat": 1,
+        "TextEdit": {
+          "NewText": "Cache",
+          "StartLine": 3,
+          "StartColumn": 18,
+          "EndLine": 3,
+          "EndColumn": 22
+        },
+        "CommitCharacters": [
+          ".",
+          ";"
+        ],
+        "AdditionalTextEdits": null,
+        "Data": 0
+      },
+      {
+        "Label": "Configuration",
+        "Kind": 9,
+        "Tags": null,
+        "Detail": "",
+        "Documentation": null,
+        "Preselect": true,
+        "SortText": "Configuration",
+        "FilterText": "Configuration",
+        "InsertTextFormat": 1,
+        "TextEdit": {
+          "NewText": "Configuration",
+          "StartLine": 3,
+          "StartColumn": 18,
+          "EndLine": 3,
+          "EndColumn": 22
+        },
+        "CommitCharacters": [
+          ".",
+          ";"
+        ],
+        "AdditionalTextEdits": null,
+        "Data": 1
+      },
+      {
+        "Label": "Mail",
+        "Kind": 9,
+        "Tags": null,
+        "Detail": "",
+        "Documentation": null,
+        "Preselect": true,
+        "SortText": "Mail",
+        "FilterText": "Mail",
+        "InsertTextFormat": 1,
+        "TextEdit": {
+          "NewText": "Mail",
+          "StartLine": 3,
+          "StartColumn": 18,
+          "EndLine": 3,
+          "EndColumn": 22
+        },
+        "CommitCharacters": [
+          ".",
+          ";"
+        ],
+        "AdditionalTextEdits": null,
+        "Data": 2
+      },
+      {
+        "Label": "Mime",
+        "Kind": 9,
+        "Tags": null,
+        "Detail": "",
+        "Documentation": null,
+        "Preselect": true,
+        "SortText": "Mime",
+        "FilterText": "Mime",
+        "InsertTextFormat": 1,
+        "TextEdit": {
+          "NewText": "Mime",
+          "StartLine": 3,
+          "StartColumn": 18,
+          "EndLine": 3,
+          "EndColumn": 22
+        },
+        "CommitCharacters": [
+          ".",
+          ";"
+        ],
+        "AdditionalTextEdits": null,
+        "Data": 3
+      },
+      {
+        "Label": "NetworkInformation",
+        "Kind": 9,
+        "Tags": null,
+        "Detail": "",
+        "Documentation": null,
+        "Preselect": true,
+        "SortText": "NetworkInformation",
+        "FilterText": "NetworkInformation",
+        "InsertTextFormat": 1,
+        "TextEdit": {
+          "NewText": "NetworkInformation",
+          "StartLine": 3,
+          "StartColumn": 18,
+          "EndLine": 3,
+          "EndColumn": 22
+        },
+        "CommitCharacters": [
+          ".",
+          ";"
+        ],
+        "AdditionalTextEdits": null,
+        "Data": 4
+      },
+      {
+        "Label": "Security",
+        "Kind": 9,
+        "Tags": null,
+        "Detail": "",
+        "Documentation": null,
+        "Preselect": true,
+        "SortText": "Security",
+        "FilterText": "Security",
+        "InsertTextFormat": 1,
+        "TextEdit": {
+          "NewText": "Security",
+          "StartLine": 3,
+          "StartColumn": 18,
+          "EndLine": 3,
+          "EndColumn": 22
+        },
+        "CommitCharacters": [
+          ".",
+          ";"
+        ],
+        "AdditionalTextEdits": null,
+        "Data": 5
+      },
+      {
+        "Label": "Sockets",
+        "Kind": 9,
+        "Tags": null,
+        "Detail": "",
+        "Documentation": null,
+        "Preselect": true,
+        "SortText": "Sockets",
+        "FilterText": "Sockets",
+        "InsertTextFormat": 1,
+        "TextEdit": {
+          "NewText": "Sockets",
+          "StartLine": 3,
+          "StartColumn": 18,
+          "EndLine": 3,
+          "EndColumn": 22
+        },
+        "CommitCharacters": [
+          ".",
+          ";"
+        ],
+        "AdditionalTextEdits": null,
+        "Data": 6
+      },
+      {
+        "Label": "WebSockets",
+        "Kind": 9,
+        "Tags": null,
+        "Detail": "",
+        "Documentation": null,
+        "Preselect": true,
+        "SortText": "WebSockets",
+        "FilterText": "WebSockets",
+        "InsertTextFormat": 1,
+        "TextEdit": {
+          "NewText": "WebSockets",
+          "StartLine": 3,
+          "StartColumn": 18,
+          "EndLine": 3,
+          "EndColumn": 22
+        },
+        "CommitCharacters": [
+          ".",
+          ";"
+        ],
+        "AdditionalTextEdits": null,
+        "Data": 7
+      }
+    ]
+  },
+  "Seq": 362,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 848,
+  "Command": "/filesChanged",
+  "Arguments": [
+    {
+      "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\omnisharp.json",
+      "changeType": "Change"
+    }
+  ]
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 848,
+  "Command": "/filesChanged",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {},
+  "Seq": 1979,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 849,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Selection": {
+      "Start": {
+        "Line": 1,
+        "Column": 1
+      },
+      "End": {
+        "Line": 1,
+        "Column": 1
+      }
+    }
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 850,
+  "Command": "/v2/codestructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 850,
+  "Command": "/v2/codestructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Elements": [
+      {
+        "Kind": "field",
+        "Name": "client",
+        "DisplayName": "client",
+        "Children": null,
+        "Ranges": {
+          "name": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 11
+            }
+          },
+          "full": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 28
+            }
+          }
+        },
+        "Properties": {
+          "static": false,
+          "accessibility": "private"
+        }
+      }
+    ]
+  },
+  "Seq": 11952,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 849,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": []
+  },
+  "Seq": 11950,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 851,
+  "Command": "/v2/blockstructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 851,
+  "Command": "/v2/blockstructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Spans": [
+      {
+        "Range": {
+          "Start": {
+            "Line": 3,
+            "Column": 7
+          },
+          "End": {
+            "Line": 3,
+            "Column": 23
+          }
+        },
+        "Kind": "Imports"
+      },
+      {
+        "Range": {
+          "Start": {
+            "Line": 5,
+            "Column": 19
+          },
+          "End": {
+            "Line": 5,
+            "Column": 33
+          }
+        },
+        "Kind": null
+      }
+    ]
+  },
+  "Seq": 11957,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 852,
+  "Command": "/v2/codestructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 852,
+  "Command": "/v2/codestructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Elements": [
+      {
+        "Kind": "field",
+        "Name": "client",
+        "DisplayName": "client",
+        "Children": null,
+        "Ranges": {
+          "name": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 11
+            }
+          },
+          "full": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 28
+            }
+          }
+        },
+        "Properties": {
+          "static": false,
+          "accessibility": "private"
+        }
+      }
+    ]
+  },
+  "Seq": 11961,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 853,
+  "Command": "/findusages",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 4,
+    "Column": 5,
+    "OnlyThisFile": false,
+    "ExcludeDefinition": true
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 853,
+  "Command": "/findusages",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": []
+  },
+  "Seq": 11964,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 854,
+  "Command": "/codecheck",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 854,
+  "Command": "/codecheck",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": [
+      {
+        "LogLevel": "Error",
+        "Id": "CS0234",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 3,
+        "Column": 18,
+        "EndLine": 3,
+        "EndColumn": 22,
+        "Text": "The type or namespace name 'Http' does not exist in the namespace 'System.Net' (are you missing an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      },
+      {
+        "LogLevel": "Error",
+        "Id": "CS0246",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 4,
+        "Column": 16,
+        "EndLine": 4,
+        "EndColumn": 26,
+        "Text": "The type or namespace name 'HttpClient' could not be found (are you missing a using directive or an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      }
+    ]
+  },
+  "Seq": 11983,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 855,
+  "Command": "/codecheck",
+  "Arguments": {
+    "FileName": null
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 855,
+  "Command": "/codecheck",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": [
+      {
+        "LogLevel": "Error",
+        "Id": "CS0234",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 3,
+        "Column": 18,
+        "EndLine": 3,
+        "EndColumn": 22,
+        "Text": "The type or namespace name 'Http' does not exist in the namespace 'System.Net' (are you missing an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      },
+      {
+        "LogLevel": "Error",
+        "Id": "CS0246",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 4,
+        "Column": 16,
+        "EndLine": 4,
+        "EndColumn": 26,
+        "Text": "The type or namespace name 'HttpClient' could not be found (are you missing a using directive or an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      }
+    ]
+  },
+  "Seq": 11995,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 856,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 16
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 856,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": "```csharp\nnamespace System.Net\n```"
+  },
+  "Seq": 12093,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 857,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 18
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,17
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 857,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 12100,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 858,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 6,
+    "Column": 1
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 858,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": []
+  },
+  "Seq": 12105,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 859,
+  "Command": "/findusages",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 18,
+    "OnlyThisFile": true,
+    "ExcludeDefinition": false
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 859,
+  "Command": "/findusages",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": []
+  },
+  "Seq": 12118,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 860,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 18
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 860,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": []
+  },
+  "Seq": 12123,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 861,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 3
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,2
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 861,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 12208,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 862,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 3
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,2
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 862,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 12216,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 863,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 3
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,2
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 863,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 12229,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 864,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 3
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,2
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 864,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 12242,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 865,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 4
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,3
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 865,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 12250,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 866,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 5
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,4
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 866,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 12258,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 867,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 7
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 867,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": "```csharp\nnamespace System\n```"
+  },
+  "Seq": 12266,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 868,
+  "Command": "/v2/codestructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 868,
+  "Command": "/v2/codestructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Elements": [
+      {
+        "Kind": "field",
+        "Name": "client",
+        "DisplayName": "client",
+        "Children": null,
+        "Ranges": {
+          "name": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 11
+            }
+          },
+          "full": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 28
+            }
+          }
+        },
+        "Properties": {
+          "static": false,
+          "accessibility": "private"
+        }
+      }
+    ]
+  },
+  "Seq": 15513,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 869,
+  "Command": "/findusages",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 4,
+    "Column": 5,
+    "OnlyThisFile": false,
+    "ExcludeDefinition": true
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 869,
+  "Command": "/findusages",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": []
+  },
+  "Seq": 15516,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 870,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Selection": {
+      "Start": {
+        "Line": 1,
+        "Column": 1
+      },
+      "End": {
+        "Line": 6,
+        "Column": 1
+      }
+    }
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 871,
+  "Command": "/codecheck",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 871,
+  "Command": "/codecheck",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": [
+      {
+        "LogLevel": "Error",
+        "Id": "CS0234",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 3,
+        "Column": 18,
+        "EndLine": 3,
+        "EndColumn": 22,
+        "Text": "The type or namespace name 'Http' does not exist in the namespace 'System.Net' (are you missing an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      },
+      {
+        "LogLevel": "Error",
+        "Id": "CS0246",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 4,
+        "Column": 16,
+        "EndLine": 4,
+        "EndColumn": 26,
+        "Text": "The type or namespace name 'HttpClient' could not be found (are you missing a using directive or an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      }
+    ]
+  },
+  "Seq": 15537,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 872,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Selection": {
+      "Start": {
+        "Line": 1,
+        "Column": 1
+      },
+      "End": {
+        "Line": 6,
+        "Column": 1
+      }
+    }
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 873,
+  "Command": "/gotoDefinition",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 2,
+    "Column": 2,
+    "WantMetadata": true
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 873,
+  "Command": "/gotoDefinition",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": null,
+  "Seq": 15549,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 872,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": [
+      {
+        "Identifier": "extern alias <implicit>;",
+        "Name": "extern alias <implicit>;"
+      }
+    ]
+  },
+  "Seq": 15542,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 870,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": [
+      {
+        "Identifier": "extern alias <implicit>;",
+        "Name": "extern alias <implicit>;"
+      }
+    ]
+  },
+  "Seq": 15533,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 874,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 2
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:2,1
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 874,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 15556,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 875,
+  "Command": "/codecheck",
+  "Arguments": {
+    "FileName": null
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 875,
+  "Command": "/codecheck",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": [
+      {
+        "LogLevel": "Error",
+        "Id": "CS0234",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 3,
+        "Column": 18,
+        "EndLine": 3,
+        "EndColumn": 22,
+        "Text": "The type or namespace name 'Http' does not exist in the namespace 'System.Net' (are you missing an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      },
+      {
+        "LogLevel": "Error",
+        "Id": "CS0246",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 4,
+        "Column": 16,
+        "EndLine": 4,
+        "EndColumn": 26,
+        "Text": "The type or namespace name 'HttpClient' could not be found (are you missing a using directive or an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      }
+    ]
+  },
+  "Seq": 15560,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 876,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Selection": {
+      "Start": {
+        "Line": 1,
+        "Column": 1
+      },
+      "End": {
+        "Line": 6,
+        "Column": 1
+      }
+    }
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 877,
+  "Command": "/gotoDefinition",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 3,
+    "Column": 2,
+    "WantMetadata": true
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 877,
+  "Command": "/gotoDefinition",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": null,
+  "Seq": 15567,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 876,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": [
+      {
+        "Identifier": "extern alias <implicit>;",
+        "Name": "extern alias <implicit>;"
+      }
+    ]
+  },
+  "Seq": 15565,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 878,
+  "Command": "/quickinfo",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 2,
+    "Column": 21
+  }
+}
+[trce]: OmniSharp.Roslyn.CSharp.Services.QuickInfoProvider
+        No QuickInfo found for c:\Raghav\github\tools\tools\scripts\ado\main.csx:1,20
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 878,
+  "Command": "/quickinfo",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Markdown": ""
+  },
+  "Seq": 15582,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 879,
+  "Command": "/v2/codestructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 879,
+  "Command": "/v2/codestructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Elements": [
+      {
+        "Kind": "field",
+        "Name": "client",
+        "DisplayName": "client",
+        "Children": null,
+        "Ranges": {
+          "name": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 11
+            }
+          },
+          "full": {
+            "Start": {
+              "Line": 4,
+              "Column": 5
+            },
+            "End": {
+              "Line": 4,
+              "Column": 28
+            }
+          }
+        },
+        "Properties": {
+          "static": false,
+          "accessibility": "private"
+        }
+      }
+    ]
+  },
+  "Seq": 17462,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 880,
+  "Command": "/findusages",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 4,
+    "Column": 5,
+    "OnlyThisFile": false,
+    "ExcludeDefinition": true
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 880,
+  "Command": "/findusages",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": []
+  },
+  "Seq": 17465,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 881,
+  "Command": "/codecheck",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 881,
+  "Command": "/codecheck",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": [
+      {
+        "LogLevel": "Error",
+        "Id": "CS0234",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 3,
+        "Column": 18,
+        "EndLine": 3,
+        "EndColumn": 22,
+        "Text": "The type or namespace name 'Http' does not exist in the namespace 'System.Net' (are you missing an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      },
+      {
+        "LogLevel": "Error",
+        "Id": "CS0246",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 4,
+        "Column": 16,
+        "EndLine": 4,
+        "EndColumn": 26,
+        "Text": "The type or namespace name 'HttpClient' could not be found (are you missing a using directive or an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      }
+    ]
+  },
+  "Seq": 17484,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 882,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Selection": {
+      "Start": {
+        "Line": 1,
+        "Column": 1
+      },
+      "End": {
+        "Line": 6,
+        "Column": 1
+      }
+    }
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 882,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": [
+      {
+        "Identifier": "extern alias <implicit>;",
+        "Name": "extern alias <implicit>;"
+      }
+    ]
+  },
+  "Seq": 17489,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 883,
+  "Command": "/codecheck",
+  "Arguments": {
+    "FileName": null
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 883,
+  "Command": "/codecheck",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "QuickFixes": [
+      {
+        "LogLevel": "Error",
+        "Id": "CS0234",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 3,
+        "Column": 18,
+        "EndLine": 3,
+        "EndColumn": 22,
+        "Text": "The type or namespace name 'Http' does not exist in the namespace 'System.Net' (are you missing an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      },
+      {
+        "LogLevel": "Error",
+        "Id": "CS0246",
+        "Tags": [],
+        "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+        "Line": 4,
+        "Column": 16,
+        "EndLine": 4,
+        "EndColumn": 26,
+        "Text": "The type or namespace name 'HttpClient' could not be found (are you missing a using directive or an assembly reference?)",
+        "Projects": [
+          "main.csx"
+        ]
+      }
+    ]
+  },
+  "Seq": 17499,
+  "Type": "response"
+}

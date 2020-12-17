@@ -1,0 +1,722 @@
+Starting OmniSharp server at 12/17/2020, 3:20:53 PM
+    Target: c:\Raghav\github\tools\tools\scripts
+
+OmniSharp server started.
+    Path: c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\OmniSharp.exe
+    PID: 139236
+
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Cake
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Cake, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.DotNetTest
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.DotNetTest, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Host
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Host, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.MSBuild
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.MSBuild, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Roslyn
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Roslyn, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Roslyn.CSharp
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Roslyn.CSharp, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Script
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Script, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: OmniSharp.Shared
+[dbug]: OmniSharp.CompositionHostBuilder
+        Loaded OmniSharp.Shared, Version=1.37.0.0, Culture=neutral, PublicKeyToken=null
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.razor\OmniSharpPlugin\Microsoft.AspNetCore.Razor.OmniSharpPlugin.dll
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on Windows 6.2.9200.0 (x64)
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to dotnet
+[dbug]: OmniSharp.CompositionHostBuilder
+        .NET SDK requires MSBuild instances version 16.3 or higher
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 3 MSBuild instance(s)
+            1: Visual Studio Build Tools 2017 15.9.28307.1300 - "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin"
+            2: Visual Studio Enterprise 2019 16.8.30717.126 - "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin"
+            3: StandAlone 16.8.0 - "c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\.msbuild\Current\Bin"
+[dbug]: OmniSharp.CompositionHostBuilder
+        MSBuild instance Visual Studio Build Tools 2017 15.9.28307.1300 scored at -2147483648
+[dbug]: OmniSharp.CompositionHostBuilder
+        MSBuild instance Visual Studio Enterprise 2019 16.8.30717.126 scored at 2
+[dbug]: OmniSharp.CompositionHostBuilder
+        MSBuild instance StandAlone 16.8.0 scored at 1
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll' (name-only).
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Tasks.Core.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Tasks.Core.dll' (name-only).
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll' (name-only).
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Framework.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Framework.dll' (name-only).
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: Visual Studio Enterprise 2019 16.8.30717.126 - "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin"
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll' (name-only).
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.Build.Framework, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Framework.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.Framework.dll' (name-only).
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll' (name-only).
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.CSharp.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.CodeAnalysis.VisualBasic.Workspaces, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        FAILURE: Could not locate 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll'.
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.CodeAnalysis.VisualBasic.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        FAILURE: Could not locate 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.CodeAnalysis.VisualBasic.Features.dll'.
+[trce]: OmniSharp.HostServicesAggregator
+        Successfully added Microsoft.CodeAnalysis.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 to host service assemblies.
+[trce]: OmniSharp.HostServicesAggregator
+        Successfully added Microsoft.CodeAnalysis.CSharp.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 to host service assemblies.
+[trce]: OmniSharp.HostServicesAggregator
+        Successfully added Microsoft.AspNetCore.Razor.OmniSharpPlugin.StrongNamed, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to host service assemblies.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in 'c:\Raghav\github\tools\tools\scripts'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Could not find any Cake files
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'Microsoft.Build'
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded from path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        SUCCESS: Resolved to 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Build.dll' (name-only).
+[dbug]: OmniSharp.MSBuild.ProjectSystem
+        MSBuild environment: 
+Mode: VisualStudio
+RunningTests: False
+RunningInVisualStudio: False
+MSBuildToolsDirectory32: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin
+MSBuildToolsDirectory64: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\amd64
+MSBuildSDKsPath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Sdks
+CurrentMSBuildConfigurationFile: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\MSBuild.exe.config
+CurrentMSBuildExePath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\MSBuild.exe
+CurrentMSBuildToolsDirectory: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin
+VisualStudioInstallRootDirectory: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise
+MSBuildExtensionsPath: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild
+
+[info]: OmniSharp.MSBuild.ProjectSystem
+        No solution files found in 'c:\Raghav\github\tools\tools\scripts'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in 'c:\Raghav\github\tools\tools\scripts'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Found 1 CSX files.
+[info]: OmniSharp.Script.ScriptContextProvider
+        Searching for compilation dependencies with the fallback framework of 'netcore3.1'.
+[dbug]: OmniSharp.Script.Dotnet.Script.DependencyModel.ProjectSystem.ScriptProjectProvider
+        Creating project file for *.csx files found in c:\Raghav\github\tools\tools\scripts using netcore3.1 as the default framework.
+[dbug]: OmniSharp.Script.Dotnet.Script.DependencyModel.ProjectSystem.ScriptParser
+        Parsing c:\Raghav\github\tools\tools\scripts\ado\main.csx
+[dbug]: OmniSharp.Script.Dotnet.Script.DependencyModel.ProjectSystem.ScriptProjectProvider
+        Project file saved to C:\Users\a7536301\AppData\Local\Temp\dotnet-script\c\Raghav\github\tools\tools\scripts\netcore3.1\script.csproj
+[dbug]: OmniSharp.Script.Dotnet.Script.DependencyModel.ProjectSystem.ScriptProjectProvider
+        <?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcore3.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+  <Target Name="RecordReferencePaths" AfterTargets="AfterResolveReferences">
+    <WriteLinesToFile File="$(OutputPath)/ReferencePaths.txt" Lines="@(ReferencePath)" />
+  </Target>
+</Project>
+[fail]: OmniSharp.Script.ScriptContextProvider
+        Failed to resolve compilation dependencies
+[info]: OmniSharp.Script.ScriptContextProvider
+        Unable to find dependency context for CSX files. Will default to non-context usage (Desktop CLR scripts).
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Attempting to resolve 'System.Runtime'
+[dbug]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        FAILURE: Could not locate 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\System.Runtime.dll'.
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.Composition\v4.0_4.0.0.0__b77a5c561934e089\System.ComponentModel.Composition.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Workspaces, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.Workspaces.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.Workspaces.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.CSharp, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.CSharp.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.CSharp.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.Features.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.Features.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.CSharp.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.CSharp.Features.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.CSharp.Features.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.CSharp.Workspaces, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.CSharp.Workspaces.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Razor.Workspaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.razor\OmniSharpPlugin\Microsoft.CodeAnalysis.Razor.Workspaces.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.razor\OmniSharpPlugin\Microsoft.CodeAnalysis.Razor.Workspaces.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.razor\OmniSharpPlugin\Microsoft.CodeAnalysis.Razor.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.razor\OmniSharpPlugin\Microsoft.CodeAnalysis.Razor.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: Microsoft.CodeAnalysis.Scripting, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.Scripting.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\Microsoft.CodeAnalysis.Scripting.dll'
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Adding implicit reference: System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+[dbug]: OmniSharp.Services.MetadataFileReferenceCache
+        Cache miss c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\System.ValueTuple.dll
+[dbug]: OmniSharp.Script.ScriptContextProvider
+        Added reference to 'c:\Users\a7536301\.vscode\extensions\ms-dotnettools.csharp-1.23.8\.omnisharp\1.37.5\System.ValueTuple.dll'
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.IO
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Collections.Generic
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Console
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Diagnostics
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Dynamic
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Linq
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Linq.Expressions
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Text
+[dbug]: OmniSharp.Script.ScriptProjectSystem
+        CSX global using statement: System.Threading.Tasks
+[dbug]: OmniSharp.MSBuild.ProjectSystem
+        Could not locate project for 'c:\Raghav\github\tools\tools\scripts\ado\main.csx'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Added CSX project 'c:\Raghav\github\tools\tools\scripts\ado\main.csx' to the workspace.
+[dbug]: OmniSharp.WorkspaceInitializer
+        Starting with OmniSharp options: {"RoslynExtensionsOptions":{"EnableDecompilationSupport":false,"EnableAnalyzersSupport":false,"EnableImportCompletion":false,"DocumentAnalysisTimeoutMs":10000,"LocationPaths":null},"FormattingOptions":{"OrganizeImports":false,"EnableEditorConfigSupport":true,"NewLine":"\n","UseTabs":false,"TabSize":4,"IndentationSize":4,"SpacingAfterMethodDeclarationName":false,"SpaceWithinMethodDeclarationParenthesis":false,"SpaceBetweenEmptyMethodDeclarationParentheses":false,"SpaceAfterMethodCallName":false,"SpaceWithinMethodCallParentheses":false,"SpaceBetweenEmptyMethodCallParentheses":false,"SpaceAfterControlFlowStatementKeyword":true,"SpaceWithinExpressionParentheses":false,"SpaceWithinCastParentheses":false,"SpaceWithinOtherParentheses":false,"SpaceAfterCast":false,"SpacesIgnoreAroundVariableDeclaration":false,"SpaceBeforeOpenSquareBracket":false,"SpaceBetweenEmptySquareBrackets":false,"SpaceWithinSquareBrackets":false,"SpaceAfterColonInBaseTypeDeclaration":true,"SpaceAfterComma":true,"SpaceAfterDot":false,"SpaceAfterSemicolonsInForStatement":true,"SpaceBeforeColonInBaseTypeDeclaration":true,"SpaceBeforeComma":false,"SpaceBeforeDot":false,"SpaceBeforeSemicolonsInForStatement":false,"SpacingAroundBinaryOperator":"single","IndentBraces":false,"IndentBlock":true,"IndentSwitchSection":true,"IndentSwitchCaseSection":true,"IndentSwitchCaseSectionWhenBlock":true,"LabelPositioning":"oneLess","WrappingPreserveSingleLine":true,"WrappingKeepStatementsOnSingleLine":true,"NewLinesForBracesInTypes":true,"NewLinesForBracesInMethods":true,"NewLinesForBracesInProperties":true,"NewLinesForBracesInAccessors":true,"NewLinesForBracesInAnonymousMethods":true,"NewLinesForBracesInControlBlocks":true,"NewLinesForBracesInAnonymousTypes":true,"NewLinesForBracesInObjectCollectionArrayInitializers":true,"NewLinesForBracesInLambdaExpressionBody":true,"NewLineForElse":true,"NewLineForCatch":true,"NewLineForFinally":true,"NewLineForMembersInObjectInit":true,"NewLineForMembersInAnonymousTypes":true,"NewLineForClausesInQuery":true},"FileOptions":{"SystemExcludeSearchPatterns":["**/node_modules/**/*","**/bin/**/*","**/obj/**/*","**/.git/**/*","**/.git","**/.svn","**/.hg","**/CVS","**/.DS_Store"],"ExcludeSearchPatterns":[]},"RenameOptions":{"RenameOverloads":false,"RenameInStrings":false,"RenameInComments":false},"ImplementTypeOptions":{"InsertionBehavior":null,"PropertyGenerationBehavior":null},"Plugins":{"LocationPaths":null}}
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpFormattingWorkspaceOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.RenameWorkspaceOptionsProvider, Order: 100
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.ImplementTypeWorkspaceOptionsProvider, Order: 110
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.BlockStructureWorkspaceOptionsProvider, Order: 140
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location 'c:\Raghav\github\tools\tools\scripts' on host 96408.
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 186,
+  "Command": "/projects"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 185,
+  "Command": "/projects"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 185,
+  "Command": "/projects",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "MsBuild": {
+      "SolutionPath": "c:\\Raghav\\github\\tools\\tools\\scripts",
+      "Projects": []
+    },
+    "Script": {
+      "Projects": [
+        {
+          "Path": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+          "AssemblyReferences": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Scripting.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\System.ValueTuple.dll"
+          ],
+          "GlobalsType": "Microsoft.CodeAnalysis.Scripting.Hosting.CommandLineScriptGlobals, Microsoft.CodeAnalysis.Scripting, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+          "CommonUsings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic",
+            "System.Console",
+            "System.Diagnostics",
+            "System.Dynamic",
+            "System.Linq",
+            "System.Linq.Expressions",
+            "System.Text",
+            "System.Threading.Tasks"
+          ]
+        }
+      ]
+    }
+  },
+  "Seq": 130,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 186,
+  "Command": "/projects",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "MsBuild": {
+      "SolutionPath": "c:\\Raghav\\github\\tools\\tools\\scripts",
+      "Projects": []
+    },
+    "Script": {
+      "Projects": [
+        {
+          "Path": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+          "AssemblyReferences": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Scripting.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\System.ValueTuple.dll"
+          ],
+          "GlobalsType": "Microsoft.CodeAnalysis.Scripting.Hosting.CommandLineScriptGlobals, Microsoft.CodeAnalysis.Scripting, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+          "CommonUsings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic",
+            "System.Console",
+            "System.Diagnostics",
+            "System.Dynamic",
+            "System.Linq",
+            "System.Linq.Expressions",
+            "System.Text",
+            "System.Threading.Tasks"
+          ]
+        }
+      ]
+    }
+  },
+  "Seq": 128,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 187,
+  "Command": "/projects"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 187,
+  "Command": "/projects",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "MsBuild": {
+      "SolutionPath": "c:\\Raghav\\github\\tools\\tools\\scripts",
+      "Projects": []
+    },
+    "Script": {
+      "Projects": [
+        {
+          "Path": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+          "AssemblyReferences": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Scripting.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\System.ValueTuple.dll"
+          ],
+          "GlobalsType": "Microsoft.CodeAnalysis.Scripting.Hosting.CommandLineScriptGlobals, Microsoft.CodeAnalysis.Scripting, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+          "CommonUsings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic",
+            "System.Console",
+            "System.Diagnostics",
+            "System.Dynamic",
+            "System.Linq",
+            "System.Linq.Expressions",
+            "System.Text",
+            "System.Threading.Tasks"
+          ]
+        }
+      ]
+    }
+  },
+  "Seq": 134,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 188,
+  "Command": "/v2/codestructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 189,
+  "Command": "/v2/getcodeactions",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+    "Line": 4,
+    "Column": 22
+  }
+}
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.CSharp.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Workspaces, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 188,
+  "Command": "/v2/codestructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Elements": [
+      {
+        "Kind": "field",
+        "Name": "client",
+        "DisplayName": "client",
+        "Children": null,
+        "Ranges": {
+          "name": {
+            "Start": {
+              "Line": 5,
+              "Column": 5
+            },
+            "End": {
+              "Line": 5,
+              "Column": 11
+            }
+          },
+          "full": {
+            "Start": {
+              "Line": 5,
+              "Column": 5
+            },
+            "End": {
+              "Line": 5,
+              "Column": 28
+            }
+          }
+        },
+        "Properties": {
+          "static": false,
+          "accessibility": "private"
+        }
+      }
+    ]
+  },
+  "Seq": 137,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 190,
+  "Command": "/v2/blockstructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[trce]: OmniSharp.Services.AssemblyLoader
+        Assembly loaded: Microsoft.CodeAnalysis.Features, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 190,
+  "Command": "/v2/blockstructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Spans": [
+      {
+        "Range": {
+          "Start": {
+            "Line": 4,
+            "Column": 7
+          },
+          "End": {
+            "Line": 4,
+            "Column": 23
+          }
+        },
+        "Kind": "Imports"
+      },
+      {
+        "Range": {
+          "Start": {
+            "Line": 6,
+            "Column": 19
+          },
+          "End": {
+            "Line": 6,
+            "Column": 33
+          }
+        },
+        "Kind": null
+      }
+    ]
+  },
+  "Seq": 155,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 191,
+  "Command": "/v2/codestructure",
+  "Arguments": {
+    "FileName": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx"
+  }
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 191,
+  "Command": "/v2/codestructure",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "Elements": [
+      {
+        "Kind": "field",
+        "Name": "client",
+        "DisplayName": "client",
+        "Children": null,
+        "Ranges": {
+          "name": {
+            "Start": {
+              "Line": 5,
+              "Column": 5
+            },
+            "End": {
+              "Line": 5,
+              "Column": 11
+            }
+          },
+          "full": {
+            "Start": {
+              "Line": 5,
+              "Column": 5
+            },
+            "End": {
+              "Line": 5,
+              "Column": 28
+            }
+          }
+        },
+        "Properties": {
+          "static": false,
+          "accessibility": "private"
+        }
+      }
+    ]
+  },
+  "Seq": 159,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************ Request ************
+{
+  "Type": "request",
+  "Seq": 192,
+  "Command": "/projects"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 192,
+  "Command": "/projects",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "MsBuild": {
+      "SolutionPath": "c:\\Raghav\\github\\tools\\tools\\scripts",
+      "Projects": []
+    },
+    "Script": {
+      "Projects": [
+        {
+          "Path": "c:\\Raghav\\github\\tools\\tools\\scripts\\ado\\main.csx",
+          "AssemblyReferences": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.Core\\v4.0_4.0.0.0__b77a5c561934e089\\System.Core.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System\\v4.0_4.0.0.0__b77a5c561934e089\\System.dll",
+            "C:\\WINDOWS\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ComponentModel.Composition\\v4.0_4.0.0.0__b77a5c561934e089\\System.ComponentModel.Composition.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.Features.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.Workspaces.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.razor\\OmniSharpPlugin\\Microsoft.CodeAnalysis.Razor.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\Microsoft.CodeAnalysis.Scripting.dll",
+            "c:\\Users\\a7536301\\.vscode\\extensions\\ms-dotnettools.csharp-1.23.8\\.omnisharp\\1.37.5\\System.ValueTuple.dll"
+          ],
+          "GlobalsType": "Microsoft.CodeAnalysis.Scripting.Hosting.CommandLineScriptGlobals, Microsoft.CodeAnalysis.Scripting, Version=3.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",
+          "CommonUsings": [
+            "System",
+            "System.IO",
+            "System.Collections.Generic",
+            "System.Console",
+            "System.Diagnostics",
+            "System.Dynamic",
+            "System.Linq",
+            "System.Linq.Expressions",
+            "System.Text",
+            "System.Threading.Tasks"
+          ]
+        }
+      ]
+    }
+  },
+  "Seq": 163,
+  "Type": "response"
+}
+[dbug]: OmniSharp.Stdio.Host
+        ************  Response ************ 
+{
+  "Request_seq": 189,
+  "Command": "/v2/getcodeactions",
+  "Running": true,
+  "Success": true,
+  "Message": null,
+  "Body": {
+    "CodeActions": []
+  },
+  "Seq": 139,
+  "Type": "response"
+}
